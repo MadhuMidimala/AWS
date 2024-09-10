@@ -1,0 +1,11 @@
+## Attaching EBS via AWS EC2
+
+df -h   <To check the storage usage > 
+file -s dev/xvdf   <To check a file systems>
+mksf -t xfs /dev/xvdf   <To create a file system>
+mkdir -p madhu/madhu123    <-p= parent dir>  #mount point
+mount /dev/xvdf madhu/madhu123   <We are mouting the volume>
+
+df free -h  <To check the RAM usage>
+du -sh.   <Display the size of the current directory>
+du -sh*   <Display the disk usage of all files>
